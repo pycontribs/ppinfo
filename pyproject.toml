@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppinfo"
+description = "Python Project Info retries information about python projects, such packaging metadata."
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["pypi", "packaging"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dynamic = ["version"]
